@@ -1,0 +1,100 @@
+body {
+  background-color: #e1eaf7;
+}
+
+.nav {
+  padding: 0;
+}
+
+.container-fluid {
+  background-color: #16b8e9;
+  padding: 0;
+}
+
+.container-fluid > h5 {
+  font-family: "Roboto Slab", serif;
+  color: rgb(51, 102, 117);
+}
+
+.img-fluid, .container-fluid > h5 > img {
+  border-radius: 50%;
+}
+
+.display-5 {
+  font-family: "Slabo 13px", serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+.lead {
+  font-family: "Recursive", sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.heading-intro {
+  font-family: "Slabo 13px", serif;
+  font-size: 56px;
+  text-align: center;
+  color: rgb(3, 85, 105);
+}
+
+.small-intro {
+  font-family: "Slabo 13px", serif;
+  font-size: 28px;
+  text-align: center;
+}
+
+.projects > h2 {
+  padding: 10px;
+  margin-top: 15px;
+  background-color: #1e6594;
+  color: rgb(255, 252, 252);
+  border-radius: 10px;
+}
+
+#bottom-sticky {
+  display: inline-flex;
+  padding: 0;
+}
+
+#bottom-sticky > .container-fluid {
+  margin-left: 15px;
+  border-radius: 10px;
+  background-color: rgb(255, 136, 0);
+}
+
+#bottom-sticky > .container-fluid > a {
+  text-align: center;
+  font-size: 16px;
+}
+
+.small-container {
+  height: 400px;
+}
+
+.left-card {
+  margin: 20px;
+  float: left;
+  width: 100%;
+}
+
+.wrap-img {
+  height: 180px;
+  width: 180px;
+  float: left;
+  margin-right: 50px;
+}
+
+.para-heading {
+  font-family: "Recursive", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #14aacf;
+}
+
+.para-content {
+  font-family: "Recursive", sans-serif;
+  font-size: 16px;
+  color: #595e63;
+}
